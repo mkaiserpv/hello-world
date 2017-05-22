@@ -3,8 +3,8 @@ my_name = "Martha Kaiser"
 print ("My name is " + my_name + ".")
 
 my_studentID = 2061234
-print ("My student ID is " + str(my_studentID) + ".")
-
+print "My student ID is " + str(my_studentID) + "."
+print "My student ID is %d." % my_studentID
 
 """
 //studentID_sum = my_studentID[0] + my_studentID[1]
